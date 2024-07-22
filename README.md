@@ -1,1 +1,29 @@
-# Bio_plausible_LRs
+# Lib structure
+- Microlearners project structure
+	- Lib
+		- Learning rules
+			- FA
+				- FALinear
+				- FAMLP
+			- Hebbian
+				- HebbianLinear
+				- HebbianMLP
+			- Kollen Polak
+				- KPLinear
+				- KPMLP
+			- Ngrad
+				- NGRADLinear
+				- NGRADAutoenc
+		- Infrastructure
+			- Training code for MNIST
+			- Analysis
+			- Model Template
+		- Notebooks
+			- Fatemeh_KP_train
+			- Fatemeh_KP_sandbox
+			- Mina_FA_tests
+			- Ali_classification_backprop_only
+			- Ali_classification_all_architectures
+			- Tamaz_Train_1000_networks
+			- Safa_hebbian_train
+			- Tamaz_NGRAD_train
